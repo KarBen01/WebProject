@@ -1,0 +1,392 @@
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.main {
+    margin-top: 70px;
+}
+
+h1.title {
+    font-size: 50px;
+    font-family: 'Passion One', cursive;
+    font-weight: 400;
+}
+
+
+hr {
+
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+.main-login {
+    background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center {
+
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0px 40px 20px 40px;
+}
+
+.showBtn {
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    display: none;
+    user-select: none;
+}
+
+
+.indicator {
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+    display: none;
+}
+
+.indicator span {
+    width: 100%;
+    height: 100%;
+    background: lightgrey;
+    border-radius: 5px;
+    position: relative;
+}
+
+.indicator span:nth-child(2) {
+    margin: 0 3px;
+}
+
+.indicator span.medium {
+    margin: 0 3px;
+}
+
+.indicator span.active:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 5px;
+}
+
+.indicator span.weak:before {
+    background-color: #ff4757;
+}
+
+.indicator span.medium:before {
+    background-color: orange;
+}
+
+.indicator span.strong:before {
+    background-color: #23ad5c;
+}
+
+.text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: -10px;
+    display: none;
+}
+
+.text.weak {
+    color: #ff4757;
+}
+
+.text.medium {
+    color: orange;
+}
+
+.text.strong {
+    color: #23ad5c;
+}
+
+.showBtn2 {
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    display: none;
+    user-select: none;
+}
+
+
+.indicator2 {
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+    display: none;
+}
+
+.indicator2 span {
+    width: 100%;
+    height: 100%;
+    background: lightgrey;
+    border-radius: 5px;
+    position: relative;
+}
+
+.indicator2 span:nth-child(2) {
+    margin: 0 3px;
+}
+
+.indicator2 span.medium2 {
+    margin: 0 3px;
+}
+
+.indicator2 span.active2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 5px;
+}
+
+.indicator2 span.weak2:before {
+    background-color: #ff4757;
+}
+
+.indicator2 span.medium2:before {
+    background-color: orange;
+}
+
+.indicator2 span.strong2:before {
+    background-color: #23ad5c;
+}
+
+.text2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: -10px;
+    display: none;
+}
+
+.text2.weak2 {
+    color: #ff4757;
+}
+
+.text2.medium2 {
+    color: orange;
+}
+
+.text2.strong2 {
+    color: #23ad5c;
+}
+
+
+.title {
+
+    background: #435d7d;
+    color: #fff;
+    padding: 30px 40px 5px 40px;
+    min-width: 100%;
+    margin: -25px 0px 0px;
+    border-radius: 3px 3px 0 0;
+}
+
+
+.title .btn i {
+    float: left;
+    font-size: 21px;
+    margin-right: 5px;
+
+}
+
+.title .btn span {
+    float: left;
+    margin-top: 2px;
+}
+
+.modal-header {
+    display: initial;
+}
+
+.modal-footer {
+    display: initial;
+}
+
+
+.delete {
+    color: #F44336;
+}
+
+.edit {
+    color: #104fcd;
+}
+
+
+.login-form {
+    align-items: center;
+    width: 340px;
+    margin: 50px auto;
+    font-size: 15px;
+}
+
+.login-form form {
+    height: 340px;
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.login-form h2 {
+    margin: 0 0 15px;
+}
+
+.login-form .btn {
+    margin-top: 10px;
+}
+
+.home-center {
+
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.home1 {
+    font-family: "Helvetica", cursive;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.home1::before {
+    content: "";
+    background: url("../img/bg.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.9;
+}
+
+.help {
+    font-family: "Helvetica", cursive;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.help::before {
+    content: "";
+    background: url("../img/help2.jpeg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.9;
+}
+
+
+.textblock {
+    background-color: rgba(67, 93, 125, 0.5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+
+.extra-from{
+
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+
+
+}
+.padtop{
+    position: fixed;
+    left: 50%;
+    transform: translate(-25%);
+}
+
+.textsize{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+    background-color: #f4f4f4;
+}
+
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.roundBtn{
+    border-radius: 10px;
+
+}
+.BtnFile{
+    background-color: #73d97f;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
