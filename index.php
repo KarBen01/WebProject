@@ -152,6 +152,7 @@ if (isset($_GET['delete'])) {
     $db->deleteUser($_GET["delete"]);
     // $deleteuser = "DELETE FROM user WHERE id = '".$_GET["delete"]."'";
     // $result = $mysqli->query($deleteuser);
+    //test
     echo "<script>window.location.href='index.php?menu=UserAdministration';</script>";
 }
 
