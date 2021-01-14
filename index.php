@@ -155,6 +155,10 @@ if (isset($_GET['delete'])) {
     echo "<script>window.location.href='index.php?menu=UserAdministration';</script>";
 }
 
+if(1){
+    echo "hi";
+}
+
 
 
 
